@@ -1,0 +1,36 @@
+body{
+	font-family:sans-serif;
+	text-align:center;
+	margin: 0;
+	padding: 20px;
+
+}
+
+.controls{
+	margin-bottom: 10px;
+}
+#maze-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;	
+}
+#maze{
+	display: grid;
+	gap: 1px;
+	background-color: #000;
+	border: 3px solid #000;
+	box-sizing: content-box;
+}
+
+.cell{
+	box-sizing: border-box;
+}
+
+.wall {background-color:#000;}
+.path{background-color:#fff;}
+.player{background-color:#00f;}
+.goal{background-color:#0f0;}
+
+.goal.player{
+ background-color:#e6b422;
+}
