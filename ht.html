@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset = "UTF-8" />
+ <title>迷宮ゲーム</title>
+ <link rel = "stylesheet" href = "style.css"/>
+</head>
+<body>
+ <h3>迷宮ゲーム(Prim法)（23c1065 島崎泰樹）</h3>
+ <!-- ボタン -->
+ <div class="controls">
+  <label for="widthInout">横サイズ:</label>
+  <input type="number" id="widthInput" value="25" min="3" max="51"/>
+  
+  <label for="heightInput">縦サイズ:</label>
+  <input type="number" id="heightInput" value="25" min="3" max="51"/>
+  
+  <button type="button" onclick="startNewMaze()">生成</buttom>
+  </div>
+ 
+ 
+ 
+ 
+ <div id = "maze-container">
+  <div id="maze"></div>
+ </div> 
+ <script src="script.js"></script>
+</body>
+</html>
+
